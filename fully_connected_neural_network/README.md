@@ -5,8 +5,8 @@
 This is a simple implementation of FNN for **learning purpose**.
 
 - using Stochastic Gradient Descent (SGD) and backprop algorithm.
-- hidden layer activation currently support only ReLu.
-- output layer activation currently support only sigmoid.
+- hidden layer activation currently supports only ReLu.
+- output layer activation currently supports only sigmoid.
 
 ## File:
 
