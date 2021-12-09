@@ -1,4 +1,34 @@
-## 逻辑回归原理
+# 逻辑回归
+
+## Description
+
+This is a simple implementation of Logistics Regression for **learning purpose**.
+
+- using Batch or Stochastic Gradient Descent (SGD).
+- using breast cancer toy dataset from sklearn to train the model.
+
+## File:
+
+- logistic_regression.ipynb : jupyter notebook version with explanation of the code.
+- logistic_regression.py : python file that only contains the logistic regression class.
+
+## Interface:
+
+- logistic_regression(): create instance of logistic regression class.
+- fit(): train model with input data.
+- predict(): used to calculate prediction or probabilistic values.
+
+## metric functions:
+
+- precision()
+- misclassification rate()
+- recall()
+- f1_score()
+
+## 原理
+
+- 如果下面的数学公式无法正确显示，请在chrome浏览器安装插件：MathJax Plugin for Github
+
 ### 1. 线性回归模型
 - x：特征矩阵
 
@@ -58,7 +88,7 @@ $$
 
 ### 5. 逻辑回归最终预测模型
 $$
-LogisticModel=\left \{ 
+LogisticModel=\left \lbrace
 \begin{aligned}
 1 \quad \frac{1}{1+e^{-(x\cdot w+b)}}>0.5 \\
 -1  \quad \frac{1}{1+e^{-(x\cdot w+b)}}\leq 0.5
@@ -66,3 +96,8 @@ LogisticModel=\left \{
 \right.
 $$
 
+## Contact
+
+Email: ken1997528@hotmail.com
+
+WeChat: 799557629
