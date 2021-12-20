@@ -33,7 +33,7 @@ User can also play around with other internal use method, such as:
 
 ### notation
 
-![image-20211219134051645](C:\Users\ken19\AppData\Roaming\Typora\typora-user-images\image-20211219134051645.png)
+![notation](notation.png)
 
 
 
@@ -176,7 +176,7 @@ We use forward pass to calculate outputs of each layers, consider the following 
 
 Backward pass (also known as back-propagation) is the algorithm used to calculate gradient $\nabla J\left(\mathbf{W}\right)$ for weight update. In the below example, we show that in order to calculate the gradient of the first layer, $\nabla_{\mathbf{W}^{(1)}} J$, we need to find all the gradients below this layer, i.e. $\nabla_{\mathbf{W}^{(2)}} J$ and $\nabla_{\mathbf{W}^{(3)}} J$. This is the motivation of backward pass, meaning that we calculate gradient from the last layer to the first layer. consider the following binary classification example:
 
-![image-20211219154150401](C:\Users\ken19\AppData\Roaming\Typora\typora-user-images\image-20211219154150401.png)
+![fnn_diagram](fnn_diagram.png)
 
 1. To calculate the gradient of the 1^st^ hidden layer, $\nabla_{\mathbf{W}^{(1)}} J$:
 
